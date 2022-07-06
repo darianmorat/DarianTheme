@@ -1,0 +1,33 @@
+{
+  "name": "dariantheme",
+  "displayName": "DarianTheme",
+  "description": "The best Atom + default VSCode theme",
+  "icon": "logodt.jpg",
+  "version": "0.0.1",
+  "publisher": "darianmorat",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/darianmorat/DarianTheme"
+  },
+  "keywords": [
+    "theme",
+    "dark theme",
+    "dariantheme",
+    "DarianTheme"
+  ],
+  "engines": {
+    "vscode": "^1.68.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "DarianTheme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/DarianTheme-color-theme.json"
+      }
+    ]
+  }
+}
